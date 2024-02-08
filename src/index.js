@@ -4,7 +4,7 @@ const cors = require('cors')
 const port = 3001;
 app.use(cors())
 app.get('/', (req, res) => {
-    res.send('Diksha is dumbo');
+    res.send('Error 404');
 });
 
 app.listen(port);
