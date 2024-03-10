@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const cors = require('cors')
-const { add } = require("../arithmetica")
+const { add } = require("./arithmetica")
 const port = 3001;
 app.use(cors())
 app.get('/', (req, res) => {
