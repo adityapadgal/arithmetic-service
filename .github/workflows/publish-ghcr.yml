@@ -23,4 +23,4 @@ jobs:
               run: |
                 docker login --username adityapadgal --password ${{secrets.AZURE_CONTAINER_REGISTRY}} practicum15ad.azurecr.io
                 docker tag ghcr.io/adityapadgal/arithmetic-service:1   practicum15ad.azurecr.io/arithmetic-service:1
-                docker push practicum15.azurecr.io/arithmetic-service:1
+                docker push practicum15ad.azurecr.io/arithmetic-service:1
